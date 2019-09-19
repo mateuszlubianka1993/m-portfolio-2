@@ -1,13 +1,12 @@
 import React from 'react'
+import '../style/NavBar.css';
 
 class NavBar extends React.Component {
     render() {
         return (
             <div className="navbar-container">
                 <div className="nav-btn">
-                    <div className="btn-line" id="btn-line-1"></div>
-                    <div className="btn-line" id="btn-line-2"></div>
-                    <div className="btn-line" id="btn-line-3"></div>
+                    <button>menu</button>
                 </div>
                 <nav className="nav-container">
                     <div className="links-box">
