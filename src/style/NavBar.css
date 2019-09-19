@@ -1,14 +1,16 @@
 .nav-btn {
     position: fixed;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 30px;
     padding: 5px;
     z-index: 3;
     font-size: 38px;
     color: #ea1c2c;
+    transition: all 0.3 ease-in-out;
 }
 .nav-btn:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .navbar-container {
     overflow: hidden;
@@ -26,13 +28,23 @@
     align-items: center;
     transition: all 0.6s ease-in-out;
 }
+.links-box {
+    width: 100%;
+}
 .link {
     display: block;
+    width: 100%;
     padding: 10px;
     text-align: center;
     font-size: 26px;
     text-decoration: none;
-    transition: all 2s ease-in-out;
+    color: #ea1c2c;
+    transition: all 0.2s ease-in-out;
+}
+.link:hover {
+    background-color: #ea1c2c;
+    color: white;
+    cursor: pointer;
 }
 .close-nav {
     opacity: 0;
