@@ -10,11 +10,20 @@ class NavBar extends React.Component {
             isActive: !this.state.isActive
         });
     }
+    buttonRender = () => {
+        if(!this.state.isActive) {
+            return <i className="fas fa-bars"></i>
+        } else {
+            return <i className="fas fa-times"></i>
+        }
+    }
     render() {
         return (
             <div className="navbar-container">
                 <div className="nav-btn">
-                    <button onClick={this.toggleNav}>menu</button>
+                    <div onClick={this.toggleNav}>
+                        {this.buttonRender()}
+                    </div>
                 </div>
                 <nav className={this.state.isActive ? 'open-nav nav-container' : 'close-nav nav-container'}>
                     <div className="links-box">
