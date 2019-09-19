@@ -28,10 +28,10 @@ class NavBar extends React.Component {
                 </div>
                 <nav className={this.state.isActive ? 'open-nav nav-container' : 'close-nav nav-container'}>
                     <div className="links-box">
-                        <Link to="/" className="link">Home</Link>
-                        <Link to="/about" className="link">About</Link>
-                        <Link className="link">Portfolio</Link>
-                        <Link className="link">Contact</Link>
+                        <Link onClick={this.toggleNav} to="/" className="link">Home</Link>
+                        <Link onClick={this.toggleNav} to="/about" className="link">About</Link>
+                        <Link onClick={this.toggleNav} className="link">Portfolio</Link>
+                        <Link onClick={this.toggleNav} className="link">Contact</Link>
                     </div>
                 </nav>
             </div>
