@@ -1,0 +1,13 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-header {
+    
+}
+.header-txt {
+    text-align: center;
+    color: #ea1c2c;
+}
