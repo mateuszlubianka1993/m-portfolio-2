@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import '../style/NavBar.css';
 
 class NavBar extends React.Component {
@@ -27,10 +28,10 @@ class NavBar extends React.Component {
                 </div>
                 <nav className={this.state.isActive ? 'open-nav nav-container' : 'close-nav nav-container'}>
                     <div className="links-box">
-                        <a className="link">Home</a>
-                        <a className="link">About</a>
-                        <a className="link">Portfolio</a>
-                        <a className="link">Contact</a>
+                        <Link to="/" className="link">Home</Link>
+                        <Link to="/about" className="link">About</Link>
+                        <Link className="link">Portfolio</Link>
+                        <Link className="link">Contact</Link>
                     </div>
                 </nav>
             </div>
