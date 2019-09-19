@@ -23,3 +23,9 @@
     font-size: 26px;
     text-decoration: none;
 }
+.close-nav {
+    display: none;
+}
+.open-nav {
+    display: flex;
+}

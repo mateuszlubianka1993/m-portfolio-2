@@ -2,13 +2,21 @@ import React from 'react'
 import '../style/NavBar.css';
 
 class NavBar extends React.Component {
+    state = {
+        isActive: false
+    }
+    toggleNav = () => {
+        this.setState({
+            isActive: !this.state.isActive
+        });
+    }
     render() {
         return (
             <div className="navbar-container">
                 <div className="nav-btn">
-                    <button>menu</button>
+                    <button onClick={this.toggleNav}>menu</button>
                 </div>
-                <nav className="nav-container">
+                <nav className={this.state.isActive ? 'open-nav nav-container' : 'close-nav nav-container'}>
                     <div className="links-box">
                         <a className="link">Home</a>
                         <a className="link">About</a>
