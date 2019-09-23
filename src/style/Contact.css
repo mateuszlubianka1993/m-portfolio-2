@@ -1,10 +1,15 @@
 .contact-container {
     background-color: #fff;
     height: 100vh;
+    padding: 15px;
+}
+.contact-mask {
+    height: 100%;
     padding-top: 150px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border: 4px solid #000000;
 }
 .contact-header {
     text-align: center;
