@@ -31,7 +31,7 @@ class NavBar extends React.Component {
                         <Link onClick={this.toggleNav} to="/" className="link">Home</Link>
                         <Link onClick={this.toggleNav} to="/about" className="link">About</Link>
                         <Link onClick={this.toggleNav} className="link">Portfolio</Link>
-                        <Link onClick={this.toggleNav} className="link">Contact</Link>
+                        <Link onClick={this.toggleNav} to="/contact" className="link">Contact</Link>
                     </div>
                 </nav>
             </div>
