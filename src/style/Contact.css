@@ -1,10 +1,65 @@
 .contact-container {
-    background-color: aliceblue;
+    background-color: #fff;
     height: 100vh;
     padding-top: 150px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .contact-header {
     text-align: center;
+    flex-basis: 100%;
+}
+.social-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.social-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+    transform: rotate(-30deg) skew(25deg);
+    background-color: #ccc;
+}
+.social-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+}
+.social-box:hover span {
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #ea1c2c;
+    text-shadow: 0px 0px 20px rgba(234,28,44,0.9);
+}
+.social-box:hover span:nth-child(5) {
+    transform: translate(40px,-40px);
+    opacity: 1;
+}
+.social-box:hover span:nth-child(4) {
+    transform: translate(30px,-30px);
+    opacity: 0.8;
+}
+.social-box:hover span:nth-child(3) {
+    transform: translate(20px,-20px);
+    opacity: 0.6;
+}
+.social-box:hover span:nth-child(2) {
+    transform: translate(10px,-10px);
+    opacity: 0.4;
+}
+.social-box:hover span:nth-child(1) {
+    transform: translate(0px,0px);
+    opacity: 0.2;
 }
