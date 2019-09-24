@@ -2,6 +2,7 @@
     background-color: #fff;
     height: 100vh;
     padding: 15px;
+    overflow: hidden;
 }
 .contact-mask {
     height: 100%;
@@ -14,12 +15,41 @@
 .contact-header {
     text-align: center;
     flex-basis: 100%;
+    font-size: 120%;
+    animation-name: contact-header-animation;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes contact-header-animation {
+    from{
+        opacity: 0;
+        transform: translate(30%);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.contact-email {
+    color: #ea1c2c;
 }
 .social-container {
     position: relative;
     margin: 0;
     padding: 0;
     display: flex;
+    animation-name: social-animation;
+    animation-duration: 2s;
+}
+@keyframes social-animation {
+    from{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .social-box {
     position: relative;

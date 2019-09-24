@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="contact-mask">
                 <div className="contact-header">
                     <h2>Contact me</h2>
-                    <p>lubiankamateusz@gmail.com</p>
+                    <p className="contact-email">lubiankamateusz@gmail.com</p>
                 </div>
                 <div className="social-container">
                     <div className="social-box">
