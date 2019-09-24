@@ -13,7 +13,19 @@
     position: absolute;
     padding: 15px 0 15px 15px;
     z-index: 2;
+    animation-name: left-mask-animation;
+    animation-duration: 2s;
 }
+@keyframes left-mask-animation {
+    from {
+        left: 100%;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+  }
 .home-mask-right {
     height: 100%;
     width: 100%;
@@ -39,7 +51,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
+    animation-name: header-animation;
+    animation-duration: 2s;
 }
+@keyframes header-animation {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 50%;
+        opacity: 1;
+    }
+  }
 .header-txt {
     text-align: center;
     color: #fff;
