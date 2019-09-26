@@ -44,9 +44,11 @@
 @keyframes image-border-anim{
     from {
         transform: translate(100px, 100px);
+        opacity: 0;
     }
     to {
-        transform: translate(0, 0); 
+        transform: translate(0, 0);
+        opacity: 1; 
     }
 }
 .about-image {
@@ -64,15 +66,16 @@
 @keyframes image-anim{
     from {
         transform: translateY(-500px);
+        opacity: 0;
     }
     to {
-        transform: translate(-20px, -20px); 
+        transform: translate(-20px, -20px);
+        opacity: 1; 
     }
 }
 .about-txt {
     padding: 40px;
     text-align: justify;
-    /* transform: translate(-20px, -20px); */
     flex-basis: 100%;
 }
 .right-box {
@@ -82,9 +85,11 @@
 @keyframes txt-anim{
     from {
         transform: translateY(-500px);
+        opacity: 0;
     }
     to {
-        transform: translateY(0); 
+        transform: translateY(0);
+        opacity: 1; 
     }
 }
 
