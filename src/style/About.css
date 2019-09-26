@@ -54,7 +54,7 @@
 .about-image {
     height: 320px;
     width: 250px;
-    background-image: url('../img/example.jpg');
+    background-image: url('../img/photo.jpg');
     background-size: cover;
     position: absolute;
     top: 0;
