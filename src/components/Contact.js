@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
                 <div className="social-container">
                     <div className="social-box">
-                        <a href="#">
+                        <a href="https://github.com/mateuszlubianka1993" target="_blank" rel="noopener noreferrer">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -20,7 +20,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="social-box">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/mateuszlubianka/" target="_blank" rel="noopener noreferrer">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -29,7 +29,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="social-box">
-                        <a href="#">
+                        <a href="https://twitter.com/Xiedzu" target="_blank" rel="noopener noreferrer">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -38,7 +38,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="social-box">
-                        <a href="#">
+                        <a href="https://www.facebook.com/MateuszLubianka" target="_blank" rel="noopener noreferrer">
                             <span></span>
                             <span></span>
                             <span></span>

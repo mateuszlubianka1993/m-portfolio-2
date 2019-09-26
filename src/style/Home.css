@@ -1,7 +1,6 @@
 .home-container {
     height: 100vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     position: relative;
     overflow: hidden;
@@ -68,7 +67,6 @@
     text-align: center;
     color: #fff;
     font-size: 180%;
-    /* z-index: 2; */
 }
 .header-txt h2 {
     color: #ea1c2c;
