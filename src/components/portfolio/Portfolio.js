@@ -4,11 +4,11 @@ import data from '../../data/data';
 class Portfolio extends Component {
     state = {
         projects: data.projects,
-        project: [0]
+        project: data.projects[0]
     };
 
     render() {
-        console.log(this.state.projects)
+        const {project, projects} = this.state;
         return (
             <div>
                Portfolio 
