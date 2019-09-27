@@ -25,7 +25,16 @@ class Portfolio extends Component {
         const {project, projects} = this.state;
         return (
             <div className="portfolio-container">
-               Portfolio 
+               <button 
+                className="button next-button"
+                onClick={() => this.nextProject()}
+                disabled={project.index === data.projects.length-1}
+                >Next</button>
+               <button 
+                className="button prev-button"
+                onClick={() => this.prevProject()}
+                disabled={project.index === 0}
+                >Prev</button>
             </div>
         );
     };
