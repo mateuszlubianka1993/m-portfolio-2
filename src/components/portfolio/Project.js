@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Project = () => {
+const Project = ({project}) => {
     return (
         <div className="project-container">
-            Project
+            {project.title}
         </div>
     )
 }

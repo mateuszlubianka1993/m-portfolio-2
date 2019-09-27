@@ -38,7 +38,7 @@ class Portfolio extends Component {
                 >Prev</button>
 
                 <div className="slider">
-                    <Project />
+                    <Project project={project}/>
                 </div>
             </div>
         );
