@@ -14,6 +14,13 @@ class Portfolio extends Component {
         });
     };
 
+    prevProject() {
+        const updateIndex = this.state.project.index-1;
+        this.setState({
+            project: data.projects[updateIndex]
+        });
+    };
+
     render() {
         const {project, projects} = this.state;
         return (
