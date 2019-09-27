@@ -30,8 +30,10 @@ class Portfolio extends Component {
                 <div className="portfolio-mask">
                     <div className="portfolio-content">
                         <div className="slider">
-                            <div className="slider-wrapper">
-                                {projects.map(project => <Project project={project} key={project.index}/>)}
+                            <div className="slider-wrapper" style={{
+                                'transform': `translateX(-${project.index*(100/projects.length)}%)`
+                            }}>
+                                {projects.map(project => <Project project={project} active={this.state.project.index} key={project.index}/>)}
                             </div>
                         </div>
                     </div>
