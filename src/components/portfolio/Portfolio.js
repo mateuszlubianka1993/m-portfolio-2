@@ -31,7 +31,7 @@ class Portfolio extends Component {
                     <div className="portfolio-content">
                         <div className="slider">
                             <div className="slider-wrapper">
-                                <Project project={project}/>
+                                {projects.map(project => <Project project={project} key={project.index}/>)}
                             </div>
                         </div>
                     </div>
