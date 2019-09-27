@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import data from '../../data/data';
 import Project from './Project';
+import '../../style/Portfolio.css';
 
 class Portfolio extends Component {
     state = {
@@ -26,19 +27,26 @@ class Portfolio extends Component {
         const {project, projects} = this.state;
         return (
             <div className="portfolio-container">
-               <button 
-                className="button next-button"
-                onClick={() => this.nextProject()}
-                disabled={project.index === data.projects.length-1}
-                >Next</button>
-               <button 
-                className="button prev-button"
-                onClick={() => this.prevProject()}
-                disabled={project.index === 0}
-                >Prev</button>
-
-                <div className="slider">
-                    <Project project={project}/>
+                <div className="portfolio-mask">
+                    <div className="portfolio-content">
+                        <div className="slider">
+                            <div className="slider-wrapper">
+                                <Project project={project}/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="buttons-container">
+                        <button 
+                        className="button next-button"
+                        onClick={() => this.nextProject()}
+                        disabled={project.index === data.projects.length-1}
+                        >Next</button>
+                        <button 
+                        className="button prev-button"
+                        onClick={() => this.prevProject()}
+                        disabled={project.index === 0}
+                        >Prev</button>
+                    </div>
                 </div>
             </div>
         );

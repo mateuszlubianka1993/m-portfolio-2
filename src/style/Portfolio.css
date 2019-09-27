@@ -1,0 +1,17 @@
+.portfolio-container {
+    background-color: #fff;
+    height: 100vh;
+    padding: 15px;
+    overflow: hidden;
+}
+.portfolio-mask {
+    height: 100%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 4px solid #000000;
+}
+.portfolio-content {
+    width: 100%;
+}
