@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from '../../data/data';
+import Project from './Project';
 
 class Portfolio extends Component {
     state = {
@@ -35,6 +36,10 @@ class Portfolio extends Component {
                 onClick={() => this.prevProject()}
                 disabled={project.index === 0}
                 >Prev</button>
+
+                <div className="slider">
+                    <Project />
+                </div>
             </div>
         );
     };
