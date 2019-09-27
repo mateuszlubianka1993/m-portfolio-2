@@ -7,10 +7,17 @@ class Portfolio extends Component {
         project: data.projects[0]
     };
 
+    nextProject() {
+        const updateIndex = this.state.project.index+1;
+        this.setState({
+            project: data.projects[updateIndex]
+        });
+    };
+
     render() {
         const {project, projects} = this.state;
         return (
-            <div>
+            <div className="portfolio-container">
                Portfolio 
             </div>
         );
