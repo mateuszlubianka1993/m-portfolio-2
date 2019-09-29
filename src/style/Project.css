@@ -1,7 +1,7 @@
 .project-container {
-    width: 350px;
-    height: 220px;
-    background-color: red;
+    width: 400px;
+    height: 250px;
+    background-color: yellow;
     flex: 1;
     min-width: 350px;
     opacity: 0.5;
@@ -10,5 +10,5 @@
 }
 .project-container.active {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1.1);
 }
