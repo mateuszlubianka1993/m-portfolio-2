@@ -5,7 +5,8 @@
     padding: 5px;
     z-index: 5;
     font-size: 38px;
-    color: #ea1c2c;
+    /* color: #ea1c2c; */
+    color: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 .nav-btn:hover{

@@ -1,5 +1,6 @@
 .contact-container {
-    background-color: #fff;
+    /* background-color: #ffffff; */
+    background-color: #ea1c2c;
     height: 100vh;
     padding: 15px;
     overflow: hidden;
@@ -31,7 +32,8 @@
     }
 }
 .contact-email {
-    color: #ea1c2c;
+    /* color: #ea1c2c; */
+    color: #fff;
 }
 .social-container {
     position: relative;
@@ -57,7 +59,8 @@
     height: 80px;
     margin: 0 40px;
     transform: rotate(-30deg) skew(25deg);
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    background-color: #da0b1b;
 }
 .social-box span {
     position: absolute;

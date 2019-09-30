@@ -16,7 +16,7 @@ const Contact = () => {
                             <span></span>
                             <span></span>
                             <span></span>
-                            <span class="fab fa-github"></span>
+                            <span className="fab fa-github"></span>
                         </a>
                     </div>
                     <div className="social-box">
@@ -25,7 +25,7 @@ const Contact = () => {
                             <span></span>
                             <span></span>
                             <span></span>
-                            <span class="fab fa-linkedin-in"></span>
+                            <span className="fab fa-linkedin-in"></span>
                         </a>
                     </div>
                     <div className="social-box">
@@ -34,7 +34,7 @@ const Contact = () => {
                             <span></span>
                             <span></span>
                             <span></span>
-                            <span class="fab fa-twitter"></span>
+                            <span className="fab fa-twitter"></span>
                         </a>
                     </div>
                     <div className="social-box">

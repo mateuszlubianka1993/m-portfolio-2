@@ -2,15 +2,18 @@ const data = {
     "projects": [
         {
             index: 0,
-            title: 'project1',
+            title: 'The News App',
+            img: '../../projects-img/news.jpg'
         },
         {
             index: 1,
-            title: 'project2',
+            title: 'The Movie App',
+            img: '../../projects-img/movie.jpg'
         },
         {
             index: 2,
-            title: 'project3',
+            title: 'Harry Potter App',
+            img: '../../projects-img/harry-potter.jpg'
         }
     ]
 };
