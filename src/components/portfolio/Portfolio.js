@@ -42,12 +42,12 @@ class Portfolio extends Component {
                         className="button next-button"
                         onClick={() => this.nextProject()}
                         disabled={project.index === data.projects.length-1}
-                        >Next</button>
+                        ><i className="far fa-hand-point-left"></i></button>
                         <button 
                         className="button prev-button"
                         onClick={() => this.prevProject()}
                         disabled={project.index === 0}
-                        >Prev</button>
+                        ><i className="far fa-hand-point-right"></i></button>
                     </div>
                 </div>
             </div>
