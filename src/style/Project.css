@@ -1,9 +1,8 @@
 .project-container {
     width: 400px;
     height: 250px;
-    /* background-color: yellow; */
-    /* background-image: url('../projects-img/harry-potter.jpg'); */
     background-size: cover;
+    background-position: center;
     flex: 1;
     min-width: 350px;
     opacity: 0.5;
