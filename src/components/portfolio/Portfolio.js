@@ -6,7 +6,7 @@ import '../../style/Portfolio.css';
 class Portfolio extends Component {
     state = {
         projects: data.projects,
-        project: data.projects[0]
+        project: data.projects[0],
     };
 
     nextProject() {
