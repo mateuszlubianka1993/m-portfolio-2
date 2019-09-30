@@ -8,8 +8,47 @@
     opacity: 0.5;
     transform: scale(0.8);
     transition: all 0.6s ease-in;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
 }
 .project-container.active {
     opacity: 1;
     transform: scale(1.1);
+}
+/* .project-mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(165, 92, 92, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+.project-name {
+    color: #ea1c2c;
+    position: relative;
+    top: -100px;
+}
+.project-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.project-btn {
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border: 3px solid #ea1c2c;
+    border-radius: 50%;
+    font-size: 36px;
+    text-align: center;
+}
+.project-container.active .project-buttons {
+    opacity: 1;
 }
