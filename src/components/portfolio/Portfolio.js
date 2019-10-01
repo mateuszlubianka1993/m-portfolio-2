@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
+import particlesParams from '../../config/particleJsConfig';
 import data from '../../data/data';
 import Project from './Project';
 import '../../style/Portfolio.css';
@@ -51,6 +53,7 @@ class Portfolio extends Component {
                             ><i className="far fa-hand-point-right"></i></button>
                         </div>
                     </div>
+                    <Particles params={particlesParams} className="particles-box"/>
                 </div>
             </div>
         );
