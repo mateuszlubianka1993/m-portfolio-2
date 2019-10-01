@@ -1,4 +1,6 @@
 import React from 'react'
+import Particles from 'react-particles-js';
+import particlesParams from '../config/particleJsConfig';
 import '../style/About.css';
 
 const About = () => {
@@ -25,7 +27,8 @@ const About = () => {
                             </p>
                         </div>
                     </div>          
-                </div>     
+                </div>
+                <Particles params={particlesParams} className="particles-box"/>     
             </div>
         </div>
     )
