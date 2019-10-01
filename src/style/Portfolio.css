@@ -6,14 +6,21 @@
 }
 .portfolio-mask {
     height: 100%;
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     border: 4px solid #000000;
     overflow: hidden;
     animation-name: portfolio-anim;
     animation-duration: 2s;
+}
+.section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 3;
+    width: 95%;
 }
 @keyframes portfolio-anim {
     from { opacity: 0}
@@ -21,7 +28,8 @@
 }
 .portfolio-content {
     width: 100%;
-    margin-bottom: 270px;
+    padding-top: 150px;
+    margin-bottom: 320px;
 }
 .slider {
     position: relative;

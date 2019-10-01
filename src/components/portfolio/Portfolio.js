@@ -28,26 +28,28 @@ class Portfolio extends Component {
         return (
             <div className="portfolio-container">
                 <div className="portfolio-mask">
-                    <div className="portfolio-content">
-                        <div className="slider">
-                            <div className="slider-wrapper" style={{
-                                'transform': `translateX(-${project.index*(100/projects.length)}%)`
-                            }}>
-                                {projects.map(project => <Project project={project} active={this.state.project.index} key={project.index}/>)}
+                    <div className="section-content">
+                        <div className="portfolio-content">
+                            <div className="slider">
+                                <div className="slider-wrapper" style={{
+                                    'transform': `translateX(-${project.index*(100/projects.length)}%)`
+                                }}>
+                                    {projects.map(project => <Project project={project} active={this.state.project.index} key={project.index}/>)}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="buttons-container">
-                        <button 
-                        className="button next-button"
-                        onClick={() => this.nextProject()}
-                        disabled={project.index === data.projects.length-1}
-                        ><i className="far fa-hand-point-left"></i></button>
-                        <button 
-                        className="button prev-button"
-                        onClick={() => this.prevProject()}
-                        disabled={project.index === 0}
-                        ><i className="far fa-hand-point-right"></i></button>
+                        <div className="buttons-container">
+                            <button 
+                            className="button next-button"
+                            onClick={() => this.nextProject()}
+                            disabled={project.index === data.projects.length-1}
+                            ><i className="far fa-hand-point-left"></i></button>
+                            <button 
+                            className="button prev-button"
+                            onClick={() => this.prevProject()}
+                            disabled={project.index === 0}
+                            ><i className="far fa-hand-point-right"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
