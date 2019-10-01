@@ -43,7 +43,7 @@ const Contact = () => {
                             <span></span>
                             <span></span>
                             <span></span>
-                            <span class="fab fa-facebook-f fb-span"></span>
+                            <span className="fab fa-facebook-f fb-span"></span>
                         </a>
                     </div>
                 </div>

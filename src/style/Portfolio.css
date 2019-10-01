@@ -12,6 +12,12 @@
     flex-wrap: wrap;
     border: 4px solid #000000;
     overflow: hidden;
+    animation-name: portfolio-anim;
+    animation-duration: 2s;
+}
+@keyframes portfolio-anim {
+    from { opacity: 0}
+    to{opacity: 1}
 }
 .portfolio-content {
     width: 100%;
