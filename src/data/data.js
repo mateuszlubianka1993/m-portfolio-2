@@ -62,6 +62,86 @@ const data = {
             gitLink: 'https://github.com/mateuszlubianka1993/github-users-app',
             liveLink: 'https://mateuszlubianka1993.github.io/github-users-app/',
             stack: 'React, Redux, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
+        },
+        {
+            index: 8,
+            title: 'To Do List V2',
+            img: '/projects-img/to-do-list-2.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-2',
+            liveLink: 'https://mateuszlubianka1993.github.io/to-do-list-2/',
+            stack: 'React, Java Script, CSS, HTML, MDBootstrap'
+        },
+        {
+            index: 9,
+            title: 'Recipe App',
+            img: '/projects-img/recipe-app-react.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/recipe-app-react',
+            liveLink: 'https://mateuszlubianka1993.github.io/recipe-app-react/',
+            stack: 'React, Java Script, CSS, HTML, Bootstrap'
+        },
+        {
+            index: 10,
+            title: 'Search Book App',
+            img: '/projects-img/search-book-app-react.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/search-book-app-react',
+            liveLink: 'https://mateuszlubianka1993.github.io/search-book-app-react/',
+            stack: 'React, Java Script, CSS, HTML, Semantic UI'
+        },
+        {
+            index: 11,
+            title: 'Metronome App',
+            img: '/projects-img/metronome-app.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/metronome-app',
+            liveLink: 'https://mateuszlubianka1993.github.io/metronome-app/',
+            stack: 'React, Java Script, CSS, HTML, Semantic UI'
+        },
+        {
+            index: 12,
+            title: 'To Do List V1',
+            img: '/projects-img/to-do-list-v1.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-react-app',
+            liveLink: 'https://to-do-list-react-app.herokuapp.com/',
+            stack: 'React, Java Script, CSS, HTML'
+        },
+        {
+            index: 13,
+            title: 'Example Portfolio 2',
+            img: '/projects-img/example-portfolio-2.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/portfolio-2-boot',
+            liveLink: 'https://mateuszlubianka1993.github.io/portfolio-2-boot/',
+            stack: 'Java Script, CSS, HTML, JQuery'
+        },
+        {
+            index: 14,
+            title: 'Example Portfolio 1',
+            img: '/projects-img/example-portfolio-1.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/portfolio-1-boot',
+            liveLink: 'https://mateuszlubianka1993.github.io/portfolio-1-boot/',
+            stack: 'Java Script, CSS, HTML, JQuery'
+        },
+        {
+            index: 15,
+            title: 'BMI Calc',
+            img: '/projects-img/bmi-calc.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/bmi-calc',
+            liveLink: 'https://mateuszlubianka1993.github.io/bmi-calc/',
+            stack: 'Java Script, CSS, HTML'
+        },
+        {
+            index: 16,
+            title: 'My Portfolio 1',
+            img: '/projects-img/my-portfolio-1.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/mateuszlubianka1993.github.io/tree/master/mportfolio',
+            liveLink: 'https://mateuszlubianka1993.github.io/mportfolio/',
+            stack: 'Java Script, CSS, HTML'
+        },
+        {
+            index: 17,
+            title: 'InG Band Website',
+            img: '/projects-img/ing-band.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/ing-band',
+            liveLink: 'https://mateuszlubianka1993.github.io/ing-band/',
+            stack: 'Java Script, CSS, HTML'
         }
     ]
 };
