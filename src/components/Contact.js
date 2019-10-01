@@ -1,10 +1,13 @@
 import React from 'react';
+import Particles from 'react-particles-js';
+import particlesParams from '../config/particleJsConfig';
 import '../style/Contact.css';
 
 const Contact = () => {
     return (
         <div className="contact-container">
             <div className="contact-mask">
+                <div className="contact-content">
                 <div className="contact-header">
                     <h2>Contact me</h2>
                     <p className="contact-email">lubiankamateusz@gmail.com</p>
@@ -47,6 +50,9 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
+                
+                </div>
+                <Particles params={particlesParams} className="particles-box"/>
             </div>
         </div>
     )

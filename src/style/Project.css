@@ -44,6 +44,7 @@
     justify-content: space-evenly;
     opacity: 0;
     transition: all 0.3s ease-in;
+    background-color: rgba(0,0,0,0.6);
 }
 .project-btn {
     width: 60px;
