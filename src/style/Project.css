@@ -55,6 +55,14 @@
     border-radius: 50%;
     font-size: 36px;
     text-align: center;
+    z-index: 2;
+    transition: all 0.4s ease-in-out;
+}
+.project-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    cursor: pointer;
 }
 .project-container.active .project-buttons {
     opacity: 1;
