@@ -46,6 +46,7 @@
 }
 .home-header {
     position: absolute;
+    width: 90%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -64,16 +65,11 @@
     }
   }
 .header-txt {
-    text-align: center;
+    text-align: end;
+    padding-right: 100px;
     color: #fff;
-    font-size: 180%;
+    font-size: 220%;
 }
 .header-txt h2 {
     color: #ea1c2c;
 }
-canvas {
-    display: block;
-    position: absolute;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }

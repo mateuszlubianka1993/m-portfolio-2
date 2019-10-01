@@ -1,6 +1,5 @@
 const data = {
-    "projects": [
-        {
+    "projects": [{
             index: 0,
             title: 'News App',
             img: '/projects-img/news-app.jpg',
@@ -39,6 +38,30 @@ const data = {
             gitLink: 'https://github.com/mateuszlubianka1993/weather-app-react',
             liveLink: 'https://mateuszlubianka1993.github.io/weather-app-react/',
             stack: 'React, Java Script, CSS, HTML'
+        },
+        {
+            index: 5,
+            title: 'Harry Potter App',
+            img: '/projects-img/harry-potter.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/harry-potter-app',
+            liveLink: 'https://mateuszlubianka1993.github.io/harry-potter-app/',
+            stack: 'React, Redux, React-router, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
+        },
+        {
+            index: 6,
+            title: 'Pomodoro Timer',
+            img: '/projects-img/pomodoro-timer.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/pomodoro-timer-app',
+            liveLink: 'https://mateuszlubianka1993.github.io/pomodoro-timer-app/',
+            stack: 'React, Java Script, CSS, HTML, Semantic UI'
+        },
+        {
+            index: 7,
+            title: 'GitHub User APP',
+            img: '/projects-img/github-user.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/github-users-app',
+            liveLink: 'https://mateuszlubianka1993.github.io/github-users-app/',
+            stack: 'React, Redux, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
         }
     ]
 };
