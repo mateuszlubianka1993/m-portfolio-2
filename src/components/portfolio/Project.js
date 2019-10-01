@@ -10,9 +10,9 @@ const Project = ({project, active}) => {
             <h3 className="project-name">{project.title}</h3>
             <p className="project-description">Jedno zdanie o projekcie. Albo jednak dwa.</p>
             <div className="project-buttons">
-                <button className="project-btn"><i className="far fa-file-code"></i></button>
+                <a href={project.gitLink} target="_blank" rel="noopener noreferrer"><button className="project-btn"><i className="far fa-file-code"></i></button></a>
                 <button className="project-btn"><i className="fas fa-info"></i></button>
-                <button className="project-btn"><i className="far fa-eye"></i></button>
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer"><button className="project-btn"><i className="far fa-eye"></i></button></a>
             </div>
         </div>
     )
