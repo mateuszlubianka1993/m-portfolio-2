@@ -59,5 +59,6 @@
 }
 .button:disabled {
     opacity: 0.7;
+    cursor: inherit;
 }
 button:focus {outline:0;}

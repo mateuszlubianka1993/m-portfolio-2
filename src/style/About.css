@@ -1,6 +1,6 @@
 .about-container {
-    background-color: #FFF;
-    /* background-color: #ea1c2c; */
+    /* background-color: #FFF; */
+    background-color: #ea1c2c;
     height: 100vh;
     padding: 15px;
     overflow: hidden;
@@ -36,8 +36,8 @@
     position: relative;
     height: 320px;
     width: 250px;
-    border-right: 3px solid #000000;
-    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
     animation-name: image-border-anim;
     animation-duration: 2s;
 }
@@ -77,6 +77,10 @@
     padding: 40px;
     text-align: justify;
     flex-basis: 100%;
+    color: #fff;
+}
+.about-txt-header {
+    /* color: #fff; */
 }
 .right-box {
     animation-name: txt-anim;
