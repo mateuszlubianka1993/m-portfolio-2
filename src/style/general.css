@@ -19,3 +19,15 @@
     z-index: 3;
     width: 95%;
 }
+
+/* RWD */
+@media(max-width: 580px) {
+    .particles-box {
+        display: none;
+    }
+}
+@media(max-width: 480px) {
+    .section-mask {
+        border: 0;
+    }
+}

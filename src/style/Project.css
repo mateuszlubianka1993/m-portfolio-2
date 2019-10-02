@@ -98,6 +98,9 @@
         min-width: 230px;
         padding: 15px;
     }
+    .project-name, .project-description {
+        font-size: 90%;
+    }
 }
 @media(max-width: 480px) {
     .project-container {
