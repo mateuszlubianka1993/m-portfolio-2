@@ -10,7 +10,7 @@ const Project = ({project, active}) => {
             <p className="project-description">{project.stack}</p>
             <div className="project-buttons">
                 <a href={project.gitLink} target="_blank" rel="noopener noreferrer"><button className="project-btn"><i className="far fa-file-code"></i></button></a>
-                <button className="project-btn"><i className="fas fa-info"></i></button>
+                {/* <button className="project-btn"><i className="fas fa-info"></i></button> */}
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer"><button className="project-btn"><i className="far fa-eye"></i></button></a>
             </div>
         </div>

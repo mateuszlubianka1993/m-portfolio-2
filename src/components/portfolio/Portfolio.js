@@ -46,12 +46,12 @@ class Portfolio extends Component {
                             className="button next-button"
                             onClick={() => this.nextProject()}
                             disabled={project.index === data.projects.length-1}
-                            ><i className="far fa-hand-point-left"></i></button>
+                            >Next</button>
                             <button 
                             className="button prev-button"
                             onClick={() => this.prevProject()}
                             disabled={project.index === 0}
-                            ><i className="far fa-hand-point-right"></i></button>
+                            >Prev</button>
                         </div>
                     </div>
                     <Particles params={particlesParams} className="particles-box"/>

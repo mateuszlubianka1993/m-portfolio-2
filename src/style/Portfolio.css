@@ -34,16 +34,15 @@
     z-index: 1;
 }
 .button {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 40px;
     padding: 8px;
     background-color: #000;
-    border: 2px solid #fff;
-    border-radius: 50%;
+    border: 1px solid #fff;
     color: #fff;
     margin: 30px;
     transition: all 0.4s ease-in-out;
-    font-size: 36px;
+    font-size: 22px;
 }
 .button:hover {
     cursor: pointer;
@@ -56,3 +55,82 @@
     cursor: inherit;
 }
 button:focus {outline:0;}
+
+/* RWD */
+@media(max-width: 1024px) {
+    .portfolio-content {
+        padding-top: 130px;
+        margin-bottom: 280px;
+    }
+    .slider {
+        max-width: 450px;
+    }
+    .slider::after {
+        height: 270px;
+    }
+}
+@media(max-width: 667px) {
+    .portfolio-content {
+        padding-top: 120px;
+        margin-bottom: 250px;
+    }
+    .slider {
+        max-width: 400px;
+    }
+    .slider::after {
+        height: 250px;
+    }
+    .button {
+        width: 90px;
+        height: 35px;
+        padding: 7px;
+        font-size: 20px;
+    }
+}
+@media(max-width: 580px) {
+    .portfolio-content {
+        padding-top: 110px;
+        margin-bottom: 240px;
+    }
+    .slider {
+        max-width: 380px;
+    }
+    .slider::after {
+        height: 230px;
+    }
+    .button {
+        width: 90px;
+        height: 35px;
+        padding: 7px;
+        font-size: 20px;
+    }
+}
+@media(max-width: 480px) {
+    .portfolio-content {
+        padding-top: 100px;
+        margin-bottom: 230px;
+    }
+    .slider {
+        max-width: 340px;
+    }
+    .slider::after {
+        height: 220px;
+    }
+}
+@media(max-width: 400px) {
+    .portfolio-content {
+        padding-top: 100px;
+        margin-bottom: 230px;
+    }
+    .slider {
+        max-width: 300px;
+    }
+    .slider::after {
+        height: 220px;
+        outline: 0;
+        transform: scale(1);
+    }
+    .button {
+        margin: 15px;
+    }
+}
