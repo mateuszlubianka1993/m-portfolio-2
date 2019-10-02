@@ -1,12 +1,13 @@
 import React from 'react'
 import Particles from 'react-particles-js';
 import particlesParams from '../config/particleJsConfig';
+import '../style/general.css';
 import '../style/About.css';
 
 const About = () => {
     return (
-        <div className="about-container">
-            <div className="about-mask">
+        <div className="about-container section-container">
+            <div className="about-mask section-mask">
                 <div className="section-content">
                     <div className="about-header">
                         <h2>About me</h2>

@@ -1,13 +1,14 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import particlesParams from '../config/particleJsConfig';
+import '../style/general.css';
 import '../style/Contact.css';
 
 const Contact = () => {
     return (
-        <div className="contact-container">
-            <div className="contact-mask">
-                <div className="section-content">
+        <div className="contact-container section-container">
+            <div className="contact-mask section-mask">
+                <div className="section-content section-content">
                     <div className="contact-header">
                         <h2>Contact me</h2>
                         <p className="contact-email">lubiankamateusz@gmail.com</p>

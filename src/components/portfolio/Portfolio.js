@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import particlesParams from '../../config/particleJsConfig';
 import data from '../../data/data';
 import Project from './Project';
+import '../../style/general.css';
 import '../../style/Portfolio.css';
 
 class Portfolio extends Component {
@@ -28,8 +29,8 @@ class Portfolio extends Component {
     render() {
         const {project, projects} = this.state;
         return (
-            <div className="portfolio-container">
-                <div className="portfolio-mask">
+            <div className="portfolio-container section-container">
+                <div className="portfolio-mask section-mask">
                     <div className="section-content">
                         <div className="portfolio-content">
                             <div className="slider">
