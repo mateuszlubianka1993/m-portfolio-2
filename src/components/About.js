@@ -9,9 +9,6 @@ const About = () => {
         <div className="about-container section-container">
             <div className="about-mask section-mask">
                 <div className="section-content">
-                    <div className="about-header">
-                        <h2>About me</h2>
-                    </div>
                     <div className="about-content">
                         <div className="about-content-box">
                             <div className="about-image-border">
@@ -19,10 +16,12 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about-content-box right-box">
-                            <h3 className="about-txt-header">Hi! My name is Mateusz.</h3>
-                            <p className="about-txt">
-                                I am 26 years old and I'm Front End Developer. I live in Warsaw. 
-                            </p>
+                            <div className="about-txt">
+                                <h3 className="about-txt-header">Hi! My name is Mateusz.</h3>
+                                <p>I am 26 years old and I live in Warsaw. I'm looking for a job as Front End Developer.
+                                    Please check out my portfolio and feel free to contact me.
+                                </p>
+                            </div>
                         </div>
                     </div>          
                 </div>
