@@ -44,7 +44,7 @@
     padding: 8px;
     border: 0;
     background-color: rgba(0,0,0,0.6);
-    color: #fff;
+    color: #fff689;
     border-radius: 50%;
     font-size: 36px;
     text-align: center;
@@ -52,7 +52,7 @@
     transition: all 0.4s ease-in-out;
 }
 .project-btn:hover {
-    background-color: #fff;
+    background-color: #fff689;
     color: #000;
     cursor: pointer;
 }
