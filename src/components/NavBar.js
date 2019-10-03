@@ -26,6 +26,7 @@ class NavBar extends React.Component {
                         {this.buttonRender()}
                     </div>
                 </div>
+                <div className="nav-logo"></div>
                 <nav className={this.state.isActive ? 'open-nav nav-container' : 'close-nav nav-container'}>
                     <div className="links-box">
                         <Link onClick={this.toggleNav} to="/" className="link">Home</Link>

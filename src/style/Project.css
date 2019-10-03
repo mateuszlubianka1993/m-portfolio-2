@@ -17,7 +17,7 @@
     transform: scale(1.1);
 }
 .project-name, .project-description {
-    color: #fff;
+    color: #D72638;
     position: relative;
     top: -100px;
     opacity: 0;

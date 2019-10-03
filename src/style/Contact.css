@@ -1,7 +1,8 @@
 .contact-header {
     text-align: center;
     flex-basis: 100%;
-    font-size: 140%;
+    font-size: 170%;
+    font-weight: bold;
     animation-name: contact-header-animation;
     animation-duration: 2s;
     position: relative;
