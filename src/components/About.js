@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-mask section-mask">
                 <div className="section-content">
                     <div className="about-content">
-                        <div className="about-content-box">
+                        <div className="about-content-box left-box">
                             <div className="about-image-border">
                                 <div className="about-image"></div>
                             </div>
