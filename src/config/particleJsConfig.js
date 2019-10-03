@@ -12,7 +12,11 @@ const particlesParams = {
             value: 2
         },
         line_linked: {
-            width: 3
+            width: 3,
+            color: '#000'
+        },
+        color: {
+            value: "#000"
         }
     }
 };

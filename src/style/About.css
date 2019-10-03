@@ -14,8 +14,8 @@
     position: relative;
     height: 320px;
     width: 250px;
-    border-right: 4px solid #fff;
-    border-bottom: 4px solid #fff;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
     animation-name: image-border-anim;
     animation-duration: 2s;
 }
@@ -55,9 +55,8 @@
     padding: 40px;
     text-align: right;
     flex-basis: 100%;
-    color: #fff;
+    color: #000;
     font-size: 270%;
-    
 }
 .right-box {
     animation-name: txt-anim;

@@ -17,7 +17,7 @@
     }
 }
 .contact-email {
-    color: #fff;
+    color: #D72638;
 }
 .social-container {
     position: relative;
@@ -44,7 +44,7 @@
     height: 100px;
     margin: 0 50px;
     transform: rotate(-30deg) skew(25deg);
-    background-color: #da0b1b;
+    background-color: #eee578;
 }
 .social-box span {
     position: absolute;
@@ -57,13 +57,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FFF689;
     font-size: 30px;
 }
 .social-box:hover span {
     box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.1);
-    color: #ea1c2c;
-    text-shadow: 0px 0px 20px rgba(234,28,44,0.9);
+    color: #D72638;
+    text-shadow: 0px 0px 20px rgba(215,38,56,0.9);
 }
 .social-box:hover span:nth-child(5) {
     transform: translate(40px,-40px);
