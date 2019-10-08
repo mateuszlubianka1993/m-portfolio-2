@@ -18,6 +18,7 @@
     flex-wrap: wrap;
     z-index: 3;
     width: 95%;
+    overflow: hidden;
 }
 
 /* RWD */

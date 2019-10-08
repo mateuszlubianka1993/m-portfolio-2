@@ -1,5 +1,5 @@
 .nav-btn {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 30px;
     padding: 10px;
