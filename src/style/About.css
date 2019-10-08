@@ -12,8 +12,8 @@
 }
 .about-image-border {
     position: relative;
-    height: 320px;
-    width: 250px;
+    height: 310px;
+    width: 240px;
     border-right: 4px solid #000;
     border-bottom: 4px solid #000;
     animation-name: image-border-anim;
@@ -30,8 +30,8 @@
     }
 }
 .about-image {
-    height: 320px;
-    width: 250px;
+    height: 310px;
+    width: 240px;
     background-image: url('../img/photo.jpg');
     background-size: cover;
     position: absolute;
@@ -52,11 +52,11 @@
     }
 }
 .about-txt {
-    padding: 40px;
+    padding: 30px;
     text-align: right;
     flex-basis: 100%;
     color: #000;
-    font-size: 270%;
+    font-size: 265%;
 }
 .right-box {
     animation-name: txt-anim;
@@ -80,7 +80,7 @@
     }
     .about-txt {
         padding: 40px;
-        font-size: 250%;
+        font-size: 210%;
     }
 }
 @media (max-width: 992px) {
@@ -111,7 +111,7 @@
     .about-image-border {
         height: 280px;
         width: 200px;
-        transform: translate(-20px,-20px);
+        transform: translate(-30px,-30px);
     }
     .about-image {
         height: 280px;
