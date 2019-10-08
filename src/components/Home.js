@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import '../style/Home.css';
 
 const Home = () => {
@@ -12,6 +13,9 @@ const Home = () => {
                     <h2>Front End Developer</h2>
                 </div>
             </header>
+            <Link to="/portfolio">
+                <button className="home-button">Projects</button>
+            </Link>
         </div>
     )
 }
