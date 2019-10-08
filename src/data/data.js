@@ -7,8 +7,16 @@ const data = {
             liveLink: 'https://mateuszlubianka1993.github.io/news-app/',
             stack: 'React, Redux, Java Script, CSS, HTML, React-Router, React-Bootstrap, Axios, Redux-Thunk'
         },
-        {
+	{
             index: 1,
+            title: 'Portfolio-2',
+            img: '/projects-img/portfolio-2.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/m-portfolio-2',
+            liveLink: 'https://m-lubianka.netlify.com/',
+            stack: 'React, React-router-dom, Java Script, CSS'
+        },
+        {
+            index: 2,
             title: 'Tic Tac Toe Game',
             img: '/projects-img/tic-tac-toe-js.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/Tic-tac-toe-js-game',
@@ -16,7 +24,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 2,
+            index: 3,
             title: 'Shopping List V2',
             img: '/projects-img/shopping-list-v2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/shopping-list-js-v2',
@@ -24,7 +32,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, Firebase, Bootstrap'
         },
         {
-            index: 3,
+            index: 4,
             title: 'The Movie App',
             img: '/projects-img/movie-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/the-movie-app',
@@ -32,7 +40,7 @@ const data = {
             stack: 'React, Redux, Java Script, CSS, HTML, React-Router, Axios, Semantic UI, Redux-Thunk'
         },
         {
-            index: 4,
+            index: 5,
             title: 'Weather App',
             img: '/projects-img/weather-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/weather-app-react',
@@ -40,7 +48,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML'
         },
         {
-            index: 5,
+            index: 6,
             title: 'Harry Potter App',
             img: '/projects-img/harry-potter.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/harry-potter-app',
@@ -48,7 +56,7 @@ const data = {
             stack: 'React, Redux, React-router, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
         },
         {
-            index: 6,
+            index: 7,
             title: 'Pomodoro Timer',
             img: '/projects-img/pomodoro-timer.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/pomodoro-timer-app',
@@ -56,7 +64,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 7,
+            index: 8,
             title: 'GitHub User APP',
             img: '/projects-img/github-user.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/github-users-app',
@@ -64,7 +72,7 @@ const data = {
             stack: 'React, Redux, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
         },
         {
-            index: 8,
+            index: 9,
             title: 'To Do List V2',
             img: '/projects-img/to-do-list-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-2',
@@ -72,7 +80,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, MDBootstrap'
         },
         {
-            index: 9,
+            index: 10,
             title: 'Recipe App',
             img: '/projects-img/recipe-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/recipe-app-react',
@@ -80,7 +88,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Bootstrap'
         },
         {
-            index: 10,
+            index: 12,
             title: 'Search Book App',
             img: '/projects-img/search-book-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/search-book-app-react',
@@ -88,7 +96,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 11,
+            index: 12,
             title: 'Metronome App',
             img: '/projects-img/metronome-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/metronome-app',
@@ -96,7 +104,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 12,
+            index: 13,
             title: 'To Do List V1',
             img: '/projects-img/to-do-list-v1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-react-app',
@@ -104,7 +112,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML'
         },
         {
-            index: 13,
+            index: 14,
             title: 'Example Portfolio 2',
             img: '/projects-img/example-portfolio-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-2-boot',
@@ -112,7 +120,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 14,
+            index: 15,
             title: 'Example Portfolio 1',
             img: '/projects-img/example-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-1-boot',
@@ -120,7 +128,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 15,
+            index: 16,
             title: 'BMI Calc',
             img: '/projects-img/bmi-calc.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/bmi-calc',
@@ -128,7 +136,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 16,
+            index: 17,
             title: 'My Portfolio 1',
             img: '/projects-img/my-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/mateuszlubianka1993.github.io/tree/master/mportfolio',
@@ -136,7 +144,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 17,
+            index: 18,
             title: 'InG Band Website',
             img: '/projects-img/ing-band.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/ing-band',
