@@ -7,7 +7,7 @@ const data = {
             liveLink: 'https://mateuszlubianka1993.github.io/news-app/',
             stack: 'React, Redux, Java Script, CSS, HTML, React-Router, React-Bootstrap, Axios, Redux-Thunk'
         },
-	{
+	    {
             index: 1,
             title: 'Portfolio-2',
             img: '/projects-img/portfolio-2.jpg',
@@ -89,6 +89,14 @@ const data = {
         },
         {
             index: 11,
+            title: 'To Do List JS',
+            img: '/projects-img/to-do-list-js.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-js',
+            liveLink: 'https://to-do-list-js.netlify.app/',
+            stack: 'JavaScript, CSS, MDBootstrap, Firebase'
+        },
+        {
+            index: 12,
             title: 'Search Book App',
             img: '/projects-img/search-book-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/search-book-app-react',
@@ -96,7 +104,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 12,
+            index: 13,
             title: 'Metronome App',
             img: '/projects-img/metronome-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/metronome-app',
@@ -104,7 +112,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 13,
+            index: 14,
             title: 'To Do List V1',
             img: '/projects-img/to-do-list-v1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-react-app',
@@ -112,7 +120,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML'
         },
         {
-            index: 14,
+            index: 15,
             title: 'Example Portfolio 2',
             img: '/projects-img/example-portfolio-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-2-boot',
@@ -120,7 +128,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 15,
+            index: 16,
             title: 'Example Portfolio 1',
             img: '/projects-img/example-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-1-boot',
@@ -128,7 +136,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 16,
+            index: 17,
             title: 'BMI Calc',
             img: '/projects-img/bmi-calc.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/bmi-calc',
@@ -136,7 +144,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 17,
+            index: 18,
             title: 'My Portfolio 1',
             img: '/projects-img/my-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/mateuszlubianka1993.github.io/tree/master/mportfolio',
@@ -144,12 +152,28 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 18,
+            index: 19,
             title: 'InG Band Website',
             img: '/projects-img/ing-band.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/ing-band',
             liveLink: 'https://mateuszlubianka1993.github.io/ing-band/',
             stack: 'Java Script, CSS, HTML'
+        },
+        {
+            index: 20,
+            title: 'Counter Vue',
+            img: '/projects-img/counter-vue.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/counter-vue',
+            liveLink: 'https://counter-vue.netlify.app/',
+            stack: 'Vue, Java Script, CSS, Semantic UI'
+        },
+        {
+            index: 21,
+            title: 'To Do List Vue',
+            img: '/projects-img/to-do-list-vue.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-vue',
+            liveLink: 'https://to-do-list-vue.netlify.app/',
+            stack: 'Vue, Java Script, CSS, MDBootstrap'
         }
     ]
 };
