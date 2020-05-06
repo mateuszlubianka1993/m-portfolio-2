@@ -88,7 +88,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Bootstrap'
         },
         {
-            index: 12,
+            index: 11,
             title: 'Search Book App',
             img: '/projects-img/search-book-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/search-book-app-react',
