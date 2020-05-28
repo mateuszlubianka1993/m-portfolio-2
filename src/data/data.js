@@ -20,7 +20,7 @@ const data = {
             title: 'Tic Tac Toe Game',
             img: '/projects-img/tic-tac-toe-js.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/Tic-tac-toe-js-game',
-            liveLink: 'https://mateuszlubianka1993.github.io/Tic-tac-toe-js-game/index.html',
+            liveLink: 'https://tictactoe-js-game.netlify.app/',
             stack: 'Java Script, CSS, HTML'
         },
         {
