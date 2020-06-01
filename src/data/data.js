@@ -198,6 +198,14 @@ const data = {
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-vue',
             liveLink: 'https://to-do-list-vue.netlify.app/',
             stack: 'Vue, Java Script, CSS, MDBootstrap'
+        },
+        {
+            index: 25,
+            title: 'Shopping List App',
+            img: '/projects-img/shopping-list-js-app.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/shopping-list-js-app',
+            liveLink: 'https://mateuszlubianka1993.github.io/shopping-list-js-app/',
+            stack: 'Java Script, CSS, HTML, Firebase'
         }
     ]
 };
