@@ -18,7 +18,7 @@ const About = () => {
                         <div className="about-content-box right-box">
                             <div className="about-txt">
                                 <h3 className="about-txt-header">Hi! My name is Mateusz.</h3>
-                                <p>I am 26 years old and I live in Warsaw. I'm looking for a job as Front End Developer.
+                                <p>I am 27 years old and I live in Warsaw. I'm looking for a job as Front End Developer.
                                     Please check out my portfolio and feel free to contact me.
                                 </p>
                             </div>
