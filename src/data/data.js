@@ -5,7 +5,7 @@ const data = {
             title: 'FC Barcelona Forum',
             img: '/projects-img/barcelona-forum.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/barcelona-forum',
-            liveLink: 'https://barcelona-forum.herokuapp.com',
+            liveLink: 'https://barcelona-forum.onrender.com/',
             stack: 'Node JS, Express.js, MongoDB, Mongoose, EJS, SCSS'
         },
         {
