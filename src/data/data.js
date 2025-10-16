@@ -13,7 +13,7 @@ const data = {
             title: 'React Memory Game',
             img: '/projects-img/react-memory-game.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/react-memory-game',
-            liveLink: 'https://x-react-memory-game.netlify.app/new-game',
+            liveLink: 'https://x-react-memory-game.netlify.app/',
             stack: 'React, TypeScript, SCSS, Vite, Jest + Testing Library'
         },
         {
