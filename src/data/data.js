@@ -10,6 +10,14 @@ const data = {
         },
         {
             index: 1,
+            title: 'React Memory Game',
+            img: '/projects-img/react-memory-game.jpg',
+            gitLink: 'https://github.com/mateuszlubianka1993/react-memory-game',
+            liveLink: 'https://x-react-memory-game.netlify.app/new-game',
+            stack: 'React, TypeScript, SCSS, Vite, Jest + Testing Library'
+        },
+        {
+            index: 2,
             title: 'Memes Vue App',
             img: '/projects-img/memes-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/memes-vue',
@@ -17,7 +25,7 @@ const data = {
             stack: 'Vue, Vuex, Java Script, Vue-router, Axios, Firebase, MDBVue'
         },
         {
-            index: 2,
+            index: 3,
             title: 'News App',
             img: '/projects-img/news-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/news-app',
@@ -25,7 +33,7 @@ const data = {
             stack: 'React, Redux, Java Script, CSS, HTML, React-Router, React-Bootstrap, Axios, Redux-Thunk'
         },
         {
-            index: 3,
+            index: 4,
             title: 'Github App',
             img: '/projects-img/github-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/github-app',
@@ -33,7 +41,7 @@ const data = {
             stack: 'Vue, JS, Vuex, axios, vue-router, Vuetify, Github API'
         },
         {
-            index: 4,
+            index: 5,
             title: 'Songbook App',
             img: '/projects-img/songbook-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/songs-lyrics-app',
@@ -41,7 +49,7 @@ const data = {
             stack: 'Node.js, Express.js, EJS, MongoDB, Mongoose'
         },
         {
-            index: 5,
+            index: 6,
             title: 'Portfolio-2',
             img: '/projects-img/portfolio-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/m-portfolio-2',
@@ -49,7 +57,7 @@ const data = {
             stack: 'React, React-router-dom, Java Script, CSS'
         },
         {
-            index: 6,
+            index: 7,
             title: 'Tic Tac Toe Game',
             img: '/projects-img/tic-tac-toe-js.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/Tic-tac-toe-js-game',
@@ -57,7 +65,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 7,
+            index: 8,
             title: 'Movie App Vue',
             img: '/projects-img/movie-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/movie-vue/',
@@ -65,7 +73,7 @@ const data = {
             stack: 'Vue, Java Script, MDBVue, Axios, SCSS, TMDBAPI'
         },
         {
-            index: 8,
+            index: 9,
             title: 'Shopping List V2',
             img: '/projects-img/shopping-list-v2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/shopping-list-js-v2',
@@ -73,7 +81,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, Firebase, Bootstrap'
         },
         {
-            index: 9,
+            index: 10,
             title: 'The Movie App',
             img: '/projects-img/movie-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/the-movie-app',
@@ -81,7 +89,7 @@ const data = {
             stack: 'React, Redux, Java Script, CSS, HTML, React-Router, Axios, Semantic UI, Redux-Thunk'
         },
         {
-            index: 10,
+            index: 11,
             title: 'To-Do List App',
             img: '/projects-img/to-do-list-svelte.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-svelte',
@@ -89,7 +97,7 @@ const data = {
             stack: 'Svelte, Java Script, CSS, Vite'
         },
         {
-            index: 11,
+            index: 12,
             title: 'Books App Vue',
             img: '/projects-img/books-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/books-vue',
@@ -97,7 +105,7 @@ const data = {
             stack: 'Vue, Java Script, CSS, HTML, vue-router, MDBVue'
         },
         {
-            index: 12,
+            index: 13,
             title: 'Weather App',
             img: '/projects-img/weather-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/weather-app-react',
@@ -105,7 +113,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML'
         },
         {
-            index: 13,
+            index: 14,
             title: 'Currency App',
             img: '/projects-img/currency-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/currency-app',
@@ -113,7 +121,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, jQuery, Webpack, Charts.js'
         },
         {
-            index: 14,
+            index: 15,
             title: 'Weather App Vue',
             img: '/projects-img/weather-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/weather-vue',
@@ -121,7 +129,7 @@ const data = {
             stack: 'Vue, Java Script, CSS, HTML, vue-resource, MDBootstrap'
         },
         {
-            index: 15,
+            index: 16,
             title: 'Harry Potter App',
             img: '/projects-img/harry-potter.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/harry-potter-app',
@@ -129,7 +137,7 @@ const data = {
             stack: 'React, Redux, React-router, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
         },
         {
-            index: 16,
+            index: 17,
             title: 'Pomodoro Timer',
             img: '/projects-img/pomodoro-timer.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/pomodoro-timer-app',
@@ -137,7 +145,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 17,
+            index: 18,
             title: 'GitHub User APP',
             img: '/projects-img/github-user.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/github-users-app',
@@ -145,7 +153,7 @@ const data = {
             stack: 'React, Redux, Java Script, CSS, HTML, Bootstrap, Axios, Redux-thunk'
         },
         {
-            index: 18,
+            index: 19,
             title: 'To Do List V2',
             img: '/projects-img/to-do-list-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-2',
@@ -153,7 +161,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, MDBootstrap'
         },
         {
-            index: 19,
+            index: 20,
             title: 'Recipe App',
             img: '/projects-img/recipe-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/recipe-app-react',
@@ -161,7 +169,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Bootstrap'
         },
         {
-            index: 20,
+            index: 21,
             title: 'To Do List JS',
             img: '/projects-img/to-do-list-js.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-js',
@@ -169,7 +177,7 @@ const data = {
             stack: 'JavaScript, CSS, MDBootstrap, Firebase'
         },
         {
-            index: 21,
+            index: 22,
             title: 'Search Book App',
             img: '/projects-img/search-book-app-react.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/search-book-app-react',
@@ -177,7 +185,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 22,
+            index: 23,
             title: 'Metronome App',
             img: '/projects-img/metronome-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/metronome-app',
@@ -185,7 +193,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML, Semantic UI'
         },
         {
-            index: 23,
+            index: 24,
             title: 'To Do List V1',
             img: '/projects-img/to-do-list-v1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-react-app',
@@ -193,7 +201,7 @@ const data = {
             stack: 'React, Java Script, CSS, HTML'
         },
         {
-            index: 24,
+            index: 25,
             title: 'Example Portfolio 2',
             img: '/projects-img/example-portfolio-2.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-2-boot',
@@ -201,7 +209,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 25,
+            index: 26,
             title: 'Example Portfolio 1',
             img: '/projects-img/example-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/portfolio-1-boot',
@@ -209,7 +217,7 @@ const data = {
             stack: 'Java Script, CSS, HTML, JQuery'
         },
         {
-            index: 26,
+            index: 27,
             title: 'BMI Calc',
             img: '/projects-img/bmi-calc.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/bmi-calc',
@@ -217,7 +225,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 27,
+            index: 28,
             title: 'My Portfolio 1',
             img: '/projects-img/my-portfolio-1.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/mateuszlubianka1993.github.io/tree/master/mportfolio',
@@ -225,7 +233,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 28,
+            index: 29,
             title: 'InG Band Website',
             img: '/projects-img/ing-band.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/ing-band',
@@ -233,7 +241,7 @@ const data = {
             stack: 'Java Script, CSS, HTML'
         },
         {
-            index: 29,
+            index: 30,
             title: 'Counter Vue',
             img: '/projects-img/counter-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/counter-vue',
@@ -241,7 +249,7 @@ const data = {
             stack: 'Vue, Java Script, CSS, Semantic UI'
         },
         {
-            index: 30,
+            index: 31,
             title: 'To Do List Vue',
             img: '/projects-img/to-do-list-vue.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/to-do-list-vue',
@@ -249,7 +257,7 @@ const data = {
             stack: 'Vue, Java Script, CSS, MDBootstrap'
         },
         {
-            index: 31,
+            index: 32,
             title: 'Shopping List App',
             img: '/projects-img/shopping-list-js-app.jpg',
             gitLink: 'https://github.com/mateuszlubianka1993/shopping-list-js-app',
